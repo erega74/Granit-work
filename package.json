@@ -1,0 +1,17 @@
+{
+    "name": "granit",
+    "version": "1.0.0",
+    "devDependencies": {
+        "autoprefixer": "^9.7.3",
+        "grunt": "^1.0.4",
+        "grunt-browser-sync": "^2.2.0",
+        "grunt-contrib-sass": "^1.0.0",
+        "grunt-contrib-uglify": "^4.0.1",
+        "grunt-contrib-watch": "^1.1.0",
+        "grunt-csso": "^2.2.4",
+        "grunt-postcss": "^0.9.0"
+    },
+    "browserslist": [
+        "last 2 version"
+    ]
+}
