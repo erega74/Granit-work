@@ -240,14 +240,12 @@ body {
 
 .in-stock {
   padding-top: 58px;
-  padding-bottom: 66px;
+  padding-bottom: 54px;
 }
 
 .in-stock__wrapper {
   max-width: 960px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .in-stock__title {
@@ -256,7 +254,7 @@ body {
   color: #292929;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 48px;
 }
 
 .in-stock__list {
@@ -265,14 +263,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .in-stock__list-item {
@@ -281,6 +276,13 @@ body {
   max-width: 300px;
   padding-top: 36px;
   padding-bottom: 34px;
+  margin: 10px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.in-stock__list-item:hover {
+  -webkit-box-shadow: 0 0 20px rgba(41, 41, 41, 0.2);
+          box-shadow: 0 0 20px rgba(41, 41, 41, 0.2);
 }
 
 .in-stock__list-item > .list-item__title {
@@ -316,4 +318,64 @@ body {
 }
 .in-stock__list-item > .list-item__more-btn:hover {
   background-color: #ffffff;
+}
+
+.advantages {
+  background-color: #f4f4f4;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.advantages__wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.advantages__title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #292929;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.advantages__list {
+  list-style-type: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.advantages__list-item {
+  text-align: center;
+  margin: 10px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  border: 2px solid #ffffff;
+  max-width: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-bottom: 6px;
+}
+.advantages__list-item:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 9px 21px rgba(41, 41, 41, 0.05);
+          box-shadow: 0 9px 21px rgba(41, 41, 41, 0.05);
+}
+.advantages__list-item > .list-item__title {
+  font-size: 15px;
+  margin-top: 33px;
+  margin-bottom: 15px;
+}
+.advantages__list-item > .list-item__desc {
+  font-size: 12px;
+  line-height: 18px;
 }

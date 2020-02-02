@@ -1,12 +1,10 @@
 .in-stock {
     padding-top: 58px;
-    padding-bottom: 66px;
+    padding-bottom: 54px;
 }
 .in-stock__wrapper {
     max-width: 960px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .in-stock__title {
     font-size: 20px;
@@ -14,15 +12,14 @@
     color: $black;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 48px;
 }
 .in-stock__list {
     padding-left: 0;
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
 }
 .in-stock__list-item {
     border: 2px solid $light-gray;
@@ -30,6 +27,11 @@
     max-width: 300px;
     padding-top: 36px;
     padding-bottom: 34px;
+    margin: 10px;
+    transition: .3s ease;
+    &:hover {
+        box-shadow: 0 0 20px rgba($black, .2);
+    }
 }
 .in-stock__list-item {
     > .list-item__title {
