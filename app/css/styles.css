@@ -323,7 +323,7 @@ body {
 .advantages {
   background-color: #f4f4f4;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 54px;
 }
 
 .advantages__wrapper {
@@ -378,4 +378,195 @@ body {
 .advantages__list-item > .list-item__desc {
   font-size: 12px;
   line-height: 18px;
+}
+
+.popular-goods {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.popular-goods__wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.popular-goods__title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #292929;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 46px;
+  margin-top: 16px;
+}
+
+.popular-goods__list {
+  padding-left: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.popular-goods__list-item {
+  max-width: 220px;
+  text-align: center;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 9px;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.popular-goods__list-item > .list-item__photo {
+  margin: 18px;
+}
+.popular-goods__list-item:hover {
+  -webkit-box-shadow: 0 9px 21px rgba(41, 41, 41, 0.05);
+          box-shadow: 0 9px 21px rgba(41, 41, 41, 0.05);
+}
+
+.list-item__title-wrap {
+  margin-bottom: 6px;
+}
+
+.list-item__title-wrap > .list-item__title {
+  font-size: 13px;
+  line-height: 18px;
+  display: inline;
+  max-width: 190px;
+  text-align: center;
+  border-bottom: 1px solid #d7d7d7;
+  font-weight: 500;
+}
+
+.popular-goods__label-promo {
+  position: absolute;
+  left: 28px;
+  top: 28px;
+  background-color: #ff0000;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 6px 8px;
+}
+
+.popular-goods__price {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+.popular-goods__price > .common-price {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 500;
+  margin-right: 12px;
+  vertical-align: middle;
+  color: #969696;
+  text-decoration: line-through;
+}
+
+.promo-price {
+  color: #ff0000;
+}
+
+.popular-goods__buy-btn {
+  background-color: #ffcc00;
+  border: 2px solid #ffcc00;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: auto;
+  margin-bottom: 18px;
+  padding: 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.popular-goods__buy-btn:hover {
+  background-color: #ffffff;
+}
+.popular-goods__buy-btn > a {
+  display: block;
+  color: #292929;
+  text-decoration: none;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-right: 64px;
+  padding-left: 64px;
+}
+
+.services {
+  background-color: #f4f4f4;
+  padding-top: 59px;
+  padding-bottom: 59px;
+}
+
+.services__wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.services__title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #292929;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.services__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  list-style-type: none;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services__list-item {
+  text-align: center;
+  width: 300px;
+  margin: 10px;
+  padding-top: 36px;
+  border: 2px solid #ffffff;
+  padding-bottom: 36px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.services__list-item:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 9px 21px rgba(41, 41, 41, 0.05);
+          box-shadow: 0 9px 21px rgba(41, 41, 41, 0.05);
+}
+
+.services__list-photo {
+  margin-bottom: 26px;
+}
+
+.services__list-title {
+  font-size: 15px;
+  color: #292929;
+  display: inline;
+  border-bottom: 1px solid #d7d7d7;
 }
