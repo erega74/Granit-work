@@ -1,0 +1,18 @@
+на ширине 700:
+    .header-content__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-content__top {
+        order: 2;
+    }
+    .header-links__wrapper {
+        order: 1;
+    }
+    .header__main {
+        order: 3;
+    }
+
+js 
+
+вставляем новый класс для списка .header-content__link-list

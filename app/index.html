@@ -23,32 +23,47 @@
                 </div>
                 <div class="header-content__communication">
                     <div class="header-content__communication-phone">
-                        <p class="phone-number">8 800 342-13-33</p>
+                        <a href="tel:88003421333" class="phone-number">8 800 342-13-33</a>
                         <p class="phone-desc">Бесплатный звонок по России</p>
                     </div>
-                    <button class="call-back__btn">Обратный звонок</button>
+                    <button class="call-back__btn"><a href="#">Обратный звонок</a></button>
                 </div>
             </div>
-            <ul class="header-content__link-list">
-                <li class="header-content__link-list__item">
-                    <a href="#">Главная</a>
-                </li>
-                <li class="header-content__link-list__item">
-                    <a href="#">Каталог</a>
-                </li>
-                <li class="header-content__link-list__item">
-                    <a href="#">Услуги</a>
-                </li>
-                <li class="header-content__link-list__item">
-                    <a href="#">Доставка</a>
-                </li>
-                <li class="header-content__link-list__item">
-                    <a href="#">О компании</a>
-                </li>
-                <li class="header-content__link-list__item">
-                    <a href="#">Контакты</a>
-                </li>
-            </ul>
+            <div class="header-links__wrapper">
+                <button class="burger__btn">
+                    <span class="line first__line"></span>
+                    <span class="line second__line"></span>
+                    <span class="line third__line"></span>
+                </button>
+                <ul class="header-content__link-list">
+                    <li class="header-content__link-list__item">
+                        <a href="#">Главная</a>
+                    </li>
+                    <li class="header-content__link-list__item">
+                        <a href="#">Каталог</a>
+                    </li>
+                    <li class="header-content__link-list__item">
+                        <a href="#">Услуги</a>
+                    </li>
+                    <li class="header-content__link-list__item">
+                        <a href="#">Доставка</a>
+                    </li>
+                    <li class="header-content__link-list__item">
+                        <a href="#">О компании</a>
+                    </li>
+                    <li class="header-content__link-list__item">
+                        <a href="#">Контакты</a>
+                    </li>
+                    <li class="header-content__link-list__item content__communication-hid">
+                        <div class="content__communication-hid-phone">
+                            <a href="tel:88003421333" class="phone-number">8 800 342-13-33</a>
+                            <p class="phone-desc">Бесплатный звонок по России</p>
+                        </div>
+                        <button class="call-back__btn"><a href="#">Обратный звонок</a></button>
+                    </li>
+                </ul>
+                <span class="overlay"></span>
+            </div>
             <div class="header__main">
                 <h1 class="header__title">
                     Быстрая доставка
@@ -57,7 +72,7 @@
                     бетона, щебня, песка<br> и других нерудных материалов<br> по Москве и Московской области
                 </p>
                 <div class="header__main-btn__wrap">
-                    <button class="header__main-btn">Подробнее о доставке</button>
+                    <button class="header__main-btn"><a href="#">Подробнее о доставке</a></button>
                     <p class="main-btn__link">или <a href="#">перейти в каталог</a></p>
                 </div>
             </div>
@@ -73,23 +88,24 @@
                     <h3 class="list-item__title">Песок речной</h3>
                     <p class="list-item__desc">Мелкий речной песок повышает прочность, долговечность и морозоустойчивость растворов, в состав которых он входит.</p>
                     <p class="list-item__price">от 330 р./т</p>
-                    <button class="list-item__more-btn">Подробнее</button>
+                    <button class="list-item__more-btn"><a href="#">Подробнее</a></button>
                 </li>
                 <li class="in-stock__list-item">
                     <img src="img/macadam.jpg" class="list-item__photo" alt="photo">
                     <h3 class="list-item__title">Щебень</h3>
                     <p class="list-item__desc">Мелкий речной песок повышает прочность, долговечность и морозоустойчивость растворов, в состав которых он входит.</p>
                     <p class="list-item__price">от 330 р./т</p>
-                    <button class="list-item__more-btn">Подробнее</button>
+                    <button class="list-item__more-btn"><a href="#">Подробнее</a></button>
                 </li>
                 <li class="in-stock__list-item">
                     <img src="img/soil_ground.jpg" class="list-item__photo" alt="photo">
                     <h3 class="list-item__title">Грунт</h3>
                     <p class="list-item__desc">Мелкий речной песок повышает прочность, долговечность и морозоустойчивость растворов, в состав которых он входит.</p>
                     <p class="list-item__price">от 330 р./т</p>
-                    <button class="list-item__more-btn">Подробнее</button>
+                    <button class="list-item__more-btn"><a href="#">Подробнее</a></button>
                 </li>
             </ul>
+        </div>
     </section>
 
     <section class="advantages">
@@ -176,6 +192,44 @@
             </ul>
         </div>
     </section>
+
+    <footer class="footer">
+        <div class="footer__map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa9ef268cb4ed75c202e1a77933ffe800aad88c6c4433a71c3184363ecfdde5ae&amp;width=100%25&amp;height=520&amp;lang=ru_RU&amp;scroll=false"></script>
+        
+            <div class="footer__contacts">
+                <h3 class="footer__contacts-title">Контакты</h3>
+                <p class="footer__contacts-phone"><a href="tel:88000342334">8 800 034-23-34</a><br>
+                <a href="tel:84950342334">8 495 034-23-34</a></p>
+                <p class="footer__contacts-address">Московская обл. г.Балашиха,<br> пер. Столовой, кор. 34</p>
+                <a href="mailto:info@stroika.ru" class="footer__contacts-email">info@stroika.ru</a>
+            </div>
+        </div>
+        <div class="footer__content-bottom">
+            <div class="content-bottom__wrap">
+                <div class="footer-content__logo">
+                    <img src="img/logo-white.png" alt="logo" class="footer-logo">
+                    <div class="footer-content__logo-description">
+                        <h2 class="logo__name">granit</h2>
+                        <p class="logo__desc">
+                            Доставка нерудных материалов
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-content__communication">
+                    <div class="footer-content__communication-phone">
+                        <a href="tel:88003421333" class="phone-number">8 800 342-13-33</a>
+                        <p class="phone-desc">Бесплатный звонок по России</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright__wrapp">
+                <p class="copyright">© 2016. Гранит</p>
+                <button class="call-back__btn"><a href="#">Обратный звонок</a></button>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.min.js" defer></script>
 </body>
 </html>
 

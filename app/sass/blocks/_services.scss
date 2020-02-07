@@ -18,9 +18,9 @@
 .services__list {
     display: flex;
     padding-left: 0;
+    flex-wrap: wrap;
     list-style-type: none;
-    align-items: baseline;
-    justify-content: space-between;
+    justify-content: center;
 }
 .services__list-item {
     text-align: center;

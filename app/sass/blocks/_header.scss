@@ -45,6 +45,7 @@
 .header-content__communication-phone {
     text-align: right;
     > .phone-number {
+        text-decoration: none;
         font-size: 18px;
         @include bold;
         color: $black;
@@ -65,16 +66,24 @@
 .header-content__communication {
     > .call-back__btn {
         font-size: 12px;
-        color: $black;
+        line-height: 12px;
         @include bold;
         background-color: $white;
         border: 2px solid $black;
-        padding: 13px 19px;
+        padding: 0;
         transition: .3s ease;
+        > a {
+            display: block;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 20px;
+            padding-right: 19px;
+            color: $black;
+            text-decoration: none;
+        }
         &:hover {
             border: 2px solid $yellow;
             background-color: $yellow;
-            box-shadow: 0 0 10px rgba($black,.2);
         }
     }
 }
@@ -83,6 +92,7 @@
     list-style-type: none;
     padding-left: 0;
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 .header-content__link-list__item {
@@ -91,8 +101,8 @@
     > a {
         padding-top: 21px;
         padding-bottom: 21px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
         transition: .3s ease;
         font-size: 14px;
         text-decoration: none;
@@ -105,7 +115,6 @@
 }
 .header__main {
     margin-top: 133px;
-    
 }
 .header__title {
     font-size: 36px;
@@ -125,13 +134,20 @@
     background-color: $yellow;
     line-height: 12px;
     border: none;
-    padding-top: 19px;
-    padding-bottom: 19px;
-    padding-left: 26px;
-    padding-right: 26px;
+    padding-left: 0;
+    padding-right: 0;
     margin-right: 30px;
     cursor: pointer;
     transition: .3s ease;
+    > a {
+        display: block;
+        color: $black;
+        text-decoration: none;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 26px;
+        padding-right: 26px;
+    }
     &:hover {
         background-color: $white;
     }
@@ -148,4 +164,55 @@
         @include medium;
         color: $white;
     }
+}
+.content__communication-hid {
+    display: none;
+}
+.burger__btn {
+    display: none;
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    background: none;
+    cursor: pointer;
+    border: none;
+    transition:  0.3s;
+}
+
+.line {
+    background-color: $black;
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    left: 0;
+    top: auto;
+}
+.first__line {
+    top: 5px;
+    transition:  0.3s;
+}
+.second__line {
+    top: 15px;
+    transition:  0.3s;
+}
+.third__line {
+    bottom: 5px;
+    transition:  0.3s;
+}
+
+.burger-cross__btn > .first__line {
+    top: 15px;
+    transform: rotate(45deg);
+    transition:  0.3s;
+    background-color: $white;
+}
+.burger-cross__btn > .second__line {
+    background-color: transparent;
+    transition:  0.3s;
+}
+.burger-cross__btn > .third__line {
+    bottom: 15px;
+    transform: rotate(-45deg);
+    transition:  0.3s;
+    background-color: $white;
 }
