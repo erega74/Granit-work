@@ -24,6 +24,11 @@ body {
 @import "blocks/services";
 @import "blocks/footer";
 
+@media (max-width: 1600px) {
+    .footer__contacts {
+        right: 4%;
+    }
+}
 @media (max-width: 1170px) {
     .footer__contacts {
         right: 10%;
@@ -31,7 +36,7 @@ body {
 }
 @media (max-width: 950px) {
     .footer__contacts {
-        right: 5%;
+        right: 0%;
     }
 }
 @media (max-width: 700px) {

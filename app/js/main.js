@@ -1,3 +1,6 @@
+new WOW().init();
+
+
 var burgerBtn = document.querySelector(".burger__btn");
 var headerList = document.querySelector(".header-content__link-list");
 var overlay = document.querySelector(".overlay");

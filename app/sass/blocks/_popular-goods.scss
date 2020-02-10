@@ -23,7 +23,7 @@
     flex-wrap: wrap;
 }
 .popular-goods__list-item {
-    max-width: 220px;
+    width: 220px;
     text-align: center;
     position: relative;
     display: flex;
@@ -41,12 +41,13 @@
 }
 .list-item__title-wrap {
     margin-bottom: 6px;
+    max-width: 100%;
 }
 .list-item__title-wrap > .list-item__title {
     font-size: 13px;
     line-height: 18px;
     display: inline;
-    max-width: 190px;
+    max-width: 100%;
     text-align: center;
     border-bottom: 1px solid $medium-gray;
     @include medium;

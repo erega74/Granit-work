@@ -508,7 +508,7 @@ body {
 }
 
 .popular-goods__list-item {
-  max-width: 220px;
+  width: 220px;
   text-align: center;
   position: relative;
   display: -webkit-box;
@@ -536,13 +536,14 @@ body {
 
 .list-item__title-wrap {
   margin-bottom: 6px;
+  max-width: 100%;
 }
 
 .list-item__title-wrap > .list-item__title {
   font-size: 13px;
   line-height: 18px;
   display: inline;
-  max-width: 190px;
+  max-width: 100%;
   text-align: center;
   border-bottom: 1px solid #d7d7d7;
   font-weight: 500;
@@ -863,6 +864,11 @@ body {
   padding-right: 15px;
 }
 
+@media (max-width: 1600px) {
+  .footer__contacts {
+    right: 4%;
+  }
+}
 @media (max-width: 1170px) {
   .footer__contacts {
     right: 10%;
@@ -870,7 +876,7 @@ body {
 }
 @media (max-width: 950px) {
   .footer__contacts {
-    right: 5%;
+    right: 0%;
   }
 }
 @media (max-width: 700px) {
