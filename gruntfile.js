@@ -66,4 +66,6 @@ module.exports = function (grunt) {
             }
         }
     })
+
+    grunt.registerTask('default', ['sass', 'postcss', 'csso', 'watch', 'browserSync', 'uglify']);
 }
