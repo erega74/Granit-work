@@ -6,6 +6,6 @@
 2. <a href="https://github.com/daneden/animate.css">Animate.css</a>
 
 Препроцессор SASS(синтаксис SCSS)<br>
-Автоматизатор Grunt
+Автоматизатор Grunt Proverka
 
 [Просмотреть](https://erega74.github.io/Granit-work/dist/)
